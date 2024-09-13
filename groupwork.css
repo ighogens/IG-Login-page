@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    align-items: center;
+    text-align: center;
+    justify-content: center;/*
+    border: 1px solid red;*/
+    margin-left: 75px;
+    margin-right: 75px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 100%;
+    margin-left: 80px;
+    margin-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+   }
+
+
+.Instagram-logo {
+    display: inline;
+    width: 60%;
+    padding-bottom: 15px;
+}
+
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.form-div form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 3vh 2vw;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 1px solid grey; 
+}
+
+
+.resetpassword {
+    color: black;
+    padding-top: 15px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+.fb-login {
+    text-decoration: none;
+    color: rgb(55, 46, 109);
+    align-self: center;
+}
+
+
+.input {
+    background-color: whitesmoke;
+    width: 70%;
+    padding: 1rem;
+    border-radius: 4px;
+    border: 1px solid rgb(240, 233, 233);
+    margin: 3px;
+}
+
+
+.login-btn {
+    background-color: rgb(10, 216, 137);
+    width: 80%;
+    border-radius: 0.50rem;
+    padding: 0.65rem;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    
+}
+
+
+#or {
+color:black;
+font-size: 14px;
+}
+
+#or:before,
+#or:after {
+    content: '------------------------';
+    color: rgba(128, 128, 128, 0.7);
+    margin: 0 10px;
+}
+
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid grey;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 12px;
+    font-size: 15px;
+    
+}
+
+
+.sign-link {
+    text-decoration: none;
+}
+
+
+
+.get-app {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*border: 1px solid red;*/
+    
+}
+
+
+.store {
+   display: flex;
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+    /*border: 1px solid blue;*/
+        }
+
+
+#play {
+    width: 220px;
+    height: 12vh;
+    padding-right: 8px;
+}
+
+#microsoft {
+    width: 220px;
+    height: 12vh; 
+    padding-left: 8px;  
+}*/
+
+.page-footer {
+    height: 120px;
+  /*
+    border: 1px solid green;*/
+}
+
+
+.page-footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    margin-left: 25px;
+   float: center;
+}
+
+
+.footer-links {
+    padding-top: 25px;
+    /*background-color: brown;*/
+}
+
+
+.page-footer a:hover {
+    text-decoration: underline blue;
+}
+
+
+/*
+=============== 
+Responsiveness
+===============
+*/
+ 
+@media screen and (max-width: 650px) {
+    #phone-image {
+        padding-left: 50px;
+        display: none;
+    }
+    }
+
+  /*
+  =============== 
+  main image
+  ===============
+ 
+ 
+
+
+=============== 
+form
+===============
+*/
+
+
